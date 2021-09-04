@@ -1,0 +1,784 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: TTNorms;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #383838;
+}
+
+.wrapper {
+    margin-right: 10px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.blueline {
+    height: 39px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    background: #a0c5db;
+    color:  white;
+}
+
+#weve {
+    margin-right: 15px;
+    color: white;
+}
+
+#learn {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#learn a {
+    text-decoration: underline;
+    color: white;
+}
+
+.lower_nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.mobile_menu_button {display: none;}
+
+.logo {margin-top: 5px;}
+
+.right_menu {
+    color: #777;
+    display: inline-flex;
+    color: #454545;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu_button {
+    margin: 0 25px;
+    padding-top: 10px;
+}
+
+#cart {
+    margin-top: 5px;
+    padding: 0;
+}
+
+#just_cart {display: none;}
+
+.exome_assay {
+    height: 475px;
+    background: url('pics/research-hero-desktop.png');
+    background-position: center;
+}
+
+.exome_assay_inner {
+    height: 474px;
+    display: flex;
+    align-items: center;
+}
+
+.text_with_heading {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exome_assay_text {font-size: 20px;}
+
+.avoid_compromise {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avoid_compromise_text {margin-bottom: 15px;}
+
+.three_texts {
+    display: flex;
+}
+
+.three_texts .three_texts_text {
+    padding: 5px;
+}
+
+.H1 {font-size: 28px; font-weight: 700; text-align: left;}
+
+.H2 {font-size: 23px; font-weight: 700; text-align: center;}
+
+.H3 {font-size: 18px; font-weight: 700; text-align: center;}
+
+.text_lefted {text-align: left;}
+
+.three_texts_headings {color: #404c77;}
+
+.table_2_texts {
+    
+}
+
+.key_performance_metrics img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#table_01 {
+    margin: 0 auto;
+}
+
+.why_call_rate_matters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two_texts {display: flex;}
+
+.two_texts .two_texts_text {
+    padding: 5px;
+}
+
+.bringing_the_benefits {
+    background: #f4f4f4;
+    display: block;
+    justify-content: center;
+}
+
+.small_text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.small {
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 59px;
+    font-family: TTNorms;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #383838;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab {
+    font-family: TTNorms;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ababab;
+    cursor: pointer;
+}
+
+.tab:active {
+    color: #4b94c6;
+}
+
+.white_panel {
+    margin-bottom: 50px;
+    display: flex;
+    background: white;
+}
+
+.panel_text {
+    margin: 15px 0;
+    padding: 0 5%;
+}
+
+.description {
+    text-align: justify;
+}
+
+.selections {
+    display: flex;
+    flex-direction: column;
+}
+
+#diagram {
+    max-height: 428px;
+}
+
+#ask_specific_questions_image {
+    max-width: 428px;
+}
+
+.grey_strip {
+    height: 3px;
+    background: #ccc;
+}
+
+.block_t {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_a {
+    height: 132px;
+    width: 43%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+ .box_content {
+    margin-left: 15px;
+ }
+
+.box_text {
+    text-align: left;
+}
+
+#box_link {color: #329af2; font-weight: 700; text-decoration: none; align-self: left;}
+
+.contact_us_grey {
+    background: #f6f6f6;
+}
+
+.contact_us {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 100%;
+}
+
+.input_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_set {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {width: 50%;}
+
+.quarter_input {
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
+    border: solid 1px #d7d7d7;
+    border-radius: 3px;
+}
+
+.input_set select {
+    border: solid 1px #d7d7d7;
+    border-radius: 3px;
+}
+
+.half_input {
+    height: 50px;
+    width: 98%;
+    margin: 0 auto;
+    border: solid 1px #d7d7d7;
+    border-radius: 3px;
+}
+
+.form textarea {
+    height: 194px;
+    width: 99%;
+    border: solid 1px #d7d7d7;
+    border-radius: 3px;
+}
+
+#required_fields {text-align: left;}
+
+.button_block {
+    display: flex;
+    justify-content: left;
+}
+
+.button_block button {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 100px;
+    background: #329af2;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer_white {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer_left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.testing_block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#footer_logo {
+    height: 25px;
+}
+
+.footer_logo_block {
+    margin-bottom: 30px;
+}
+
+.signing {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.signing input {
+    height: 70px;
+    width: 60%;
+    padding-left: 20px;
+    border: 1px solid #c5c5c5;
+    border-right: 0;
+    border-radius: 3px;
+    text-align: left;
+    color: #c5c5c5;
+}
+
+.signing button {
+    height: 72px;
+    width: 40%;
+    color: #808080;
+    border: 1px solid #808080;
+    border-radius: 0 3px 3px 0;
+    background: white;
+    font-weight: bold;
+}
+
+.social_media {
+    margin-bottom: 25px;
+}
+
+.social_media_image {
+    height: 30px;
+    margin-right: 15px;
+}
+
+#ig, #tw, #ln {
+    height: 25px;
+}
+
+.copyright p {
+    margin: 15px 0;
+    color: #c5c5c5;
+    text-align: left;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.adress p {
+    text-align: left;
+}
+
+.copyright_heading {
+    color: #c5c5c5;
+    text-align: left;
+}
+
+.adress p {
+    color: #c5c5c5;
+}
+
+.footer_right {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_column {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.footer_column a {
+    text-decoration: none;
+}
+
+.footer_links, .transp_heading {
+    text-align: left;
+}
+
+.transp_heading {
+    margin: 10px 0 20px 0;
+    color: #c5c5c5;
+}
+
+.footer_black {
+    background: #373737;
+}
+
+.footer_black_inner {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.black_left_4 {
+    
+}
+
+.black_left_4 a {
+    color: #f7f7f7;
+}
+
+.black_link {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.black_right_2 {
+    display: flex;
+}
+
+.black_code {
+    padding: 0 10px;
+    color: #969696;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1680px) {
+    .exome_assay {
+        background: url('pics/research-hero-desktop@2x.png');
+        background-size: cover;
+        background-position: 70%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .block_t {
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .input_line {
+        flex-direction: column;
+    }
+
+    .input_line .input_set {
+        width: 100%;
+    }
+
+    .input_line .input_set input {
+        width: 100%;
+    }    
+
+    .input_line .input_set select {
+        width: 100%;
+    }
+
+    .form textarea {
+        height: 333px;
+        width: 100%;
+    }
+
+    .footer_right {
+        margin-right: 2%;
+    }
+
+    .footer_left {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrapper {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .avoid_compromise {
+        flex-direction: column;
+    }
+
+    #table_01 {
+        max-width: 640px;
+    }
+
+    #diagram {
+        max-width: 300px;
+    }
+
+    #ask_specific_questions_image {
+        max-width: 375px;
+    }
+
+    .block_t {
+        flex-direction: column;
+    }
+
+    .block_a {
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    .black_link {
+        padding: 15px 10px;
+    }
+
+    .black_code {
+        padding: 0 5px;
+        color: #969696;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .exome_assay_inner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .H1 {
+        text-align: center;
+    }
+
+    .text_lefted {text-align: center;}
+
+    .menu_button {margin-right: 10px;}
+
+    .exome_assay {
+        background: url('pics/research-hero-mobile@2x.png');
+        background-position: 100% 100%;
+    }
+
+    .avoid_compromise {
+        flex-direction: column;
+    }
+
+    #table_01 {
+        max-width: 640px;
+    }
+
+    .white_panel {
+        flex-direction: column;
+    }
+
+    .two_texts {
+        flex-direction: column;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    #ask_specific_questions_image {
+        max-width: 90%;
+    }
+
+    .footer_black_inner {
+        height: 330px;
+        display: block;
+    }
+
+    .black_left_4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black_right_2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .black_link, .black_code {
+        border-top: 1px solid white;
+    }
+
+    .black_code {
+        height: 40px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .exome_assay {
+        background: url('pics/research-hero-mobile@2x.png');
+        background-position: 100% 100%;
+    }
+
+    .three_texts {
+        flex-direction: column;
+    }
+
+    #table_01 {
+        max-width: 480px;
+    }
+
+    .mobile_menu_button {display: block;}
+    .menu_button {display: none;}
+    #just_cart {display: block;}
+    #privacy {width: 90%;}
+
+    .footer_white {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_left, .footer_right {
+        width: 100%;
+    }
+
+    .footer_left {
+        margin-bottom: 50px;
+    }
+
+    .signing {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    .footer_links {
+        display: none;
+    }
+
+    .footer_right {
+        flex-direction: column;
+    }
+
+    .footer_column {
+        width: 100%;
+        background: #fafafa;
+        border-top: 1px solid white;
+    }
+
+    .transp_heading {
+        color: #808080;
+        padding-left: 25px;
+    }
+
+    .transp_heading p {
+        background: #fafafa;
+        color: #808080;
+    }
+
+    footer_black_inner {
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .exome_assay {
+        background: url('pics/research-hero-mobile@2x.png');
+        background-position: 100% 100%;
+    }
+
+    .testing {
+        background: yellow;
+    }
+
+    #table_01 {
+        max-width: 320px;
+    }
+
+    .text_with_heading {
+        width: 320px;
+    }
+
+    .H3 {text-align: left;}
+}
+
+@media screen and (max-width: 320px) {
+    .testing {
+        background: green;
+    }
+
+    .text_with_heading {
+        width: 300px;
+    }
+}

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1065" viewBox="0 0 1680 1065">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 0H1680V1065H0z"/>
+        <text fill="#383838" font-family="TTNorms-Bold, TT Norms" font-size="20" font-weight="bold">
+            <tspan x="374" y="695">Average coverage isn’t sufficient</tspan>  <tspan x="374" y="734" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">Many labs often describe an assay’s coverage primarily in </tspan> <tspan x="374" y="760" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">terms of the mean coverage across the entire assay, but </tspan> <tspan x="374" y="786" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">that only tells part of the story. </tspan> <tspan x="374" y="825" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">An assay’s coverage can vary greatly within a genome, </tspan> <tspan x="374" y="851" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">exome, or panel. For example, regions may have reduced </tspan> <tspan x="374" y="877" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">coverage due to high or low GC content or because other </tspan> <tspan x="374" y="903" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">similar sequences reduce the mapping quality of the reads.</tspan> <tspan x="374" y="942" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">As a result, a test with an average of 100x coverage may </tspan> <tspan x="374" y="968" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">have large regions with no coverage at all even though the </tspan> <tspan x="374" y="994" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">assay’s overall average is high.</tspan>
+        </text>
+        <text fill="#383838" font-family="TTNorms-Bold, TT Norms" font-size="20" font-weight="bold">
+            <tspan x="885" y="695">Call rate helps to identify gaps in coverage</tspan>  <tspan x="885" y="731" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">What is important to understand about the performance of </tspan> <tspan x="885" y="757" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">an assay is the percentage of the region that receives </tspan> <tspan x="885" y="783" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">trustable results (known as the call rate). Looking at base-</tspan> <tspan x="885" y="809" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">by-base call rates can reveal coverage gaps, even in assays </tspan> <tspan x="885" y="835" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">with high average coverage.</tspan> <tspan x="885" y="871" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">We optimize the Exome+</tspan> <tspan x="1064.04" y="871" font-family="TTNorms-Regular, TT Norms" font-size="10" font-weight="normal">®</tspan> <tspan x="1072.84" y="871" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal"> assay for uniform read </tspan> <tspan x="885" y="897" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">distribution across regions that are important for specific </tspan> <tspan x="885" y="923" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">types of genetic testing. For these genes, we provide high-</tspan> <tspan x="885" y="949" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">confidence calls at a rate of ≥99.5%, with base-by-base </tspan> <tspan x="885" y="975" font-family="TTNorms-Regular, TT Norms" font-size="16" font-weight="normal">coverage at &gt;20x coverage. </tspan>
+        </text>
+        <text fill="#383838" font-family="TTNorms-Bold, TT Norms" font-size="34" font-weight="bold">
+            <tspan x="671.36" y="632">Why call rate matters</tspan>
+        </text>
+        <g>
+            <path fill="#FFF" d="M0 237H700V316H0z" transform="translate(490 135)"/>
+            <path fill="#EDF4F9" d="M0 62H700V237H0z" transform="translate(490 135)"/>
+            <path fill="#A3C8E2" d="M0 0H700V62H0z" transform="translate(490 135)"/>
+            <path fill="#EDF4F9" d="M0 316H700V375H0z" transform="translate(490 135)"/>
+            <text fill="#4E4E4E" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="582" y="350">≥ 99.7%</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="438" y="350">≥ 96%</tspan>
+            </text>
+            <text fill="#FFF" font-family="TTNorms-Bold, TT Norms" font-size="16" font-weight="bold" transform="translate(490 135)">
+                <tspan x="582" y="23">Mean CNV </tspan> <tspan x="582" y="39">Call rate</tspan>
+            </text>
+            <text fill="#FFF" font-family="TTNorms-Bold, TT Norms" font-size="16" font-weight="bold" transform="translate(490 135)">
+                <tspan x="438" y="23">Mean SNP &amp; </tspan> <tspan x="438" y="39">Indel Call rate</tspan>
+            </text>
+            <text fill="#FFF" font-family="TTNorms-Bold, TT Norms" font-size="16" font-weight="bold" transform="translate(490 135)">
+                <tspan x="99" y="23">Regions</tspan>
+            </text>
+            <text fill="#FFF" font-family="TTNorms-Bold, TT Norms" font-size="16" font-weight="bold" transform="translate(490 135)">
+                <tspan x="20" y="23">Tier</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="20" y="96">Tier 1</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="20" y="271">Tier 2</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="99" y="96">~600 genes important in the areas of </tspan> <tspan x="99" y="116">hereditary cancer, cardiovascular disease, </tspan> <tspan x="99" y="136">pharmacogenomics, and carrier screening</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="99" y="350">Whole exome</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="20" y="350">Tier 3</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="99" y="167"> • Includes 59 medically actionable </tspan> <tspan x="135" y="187">genes</tspan> <tspan x="99" y="212"> • Includes CDC Tier 1 genes</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="99" y="271">~3,000 genes related to single-gene </tspan> <tspan x="99" y="291">disorders</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="438" y="96">≥ 99.5%</tspan>
+            </text>
+            <text fill="#4A4A4A" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="438" y="271">≥ 98%</tspan>
+            </text>
+            <text fill="#4E4E4E" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="582" y="96">≥ 99.7%</tspan>
+            </text>
+            <text fill="#4E4E4E" font-family="TTNorms-Medium, TT Norms" font-size="16" font-weight="400" transform="translate(490 135)">
+                <tspan x="582" y="271">≥ 99.6%</tspan>
+            </text>
+            <path stroke="#D8D8D8" stroke-linecap="square" stroke-width=".75" d="M80 5L80 370M418.5 5L418.5 370M562 5L562 370" transform="translate(490 135)"/>
+        </g>
+        <g transform="translate(827 530)">
+            <circle cx="4" cy="4" r="4" fill="#9A9A9A"/>
+            <circle cx="22" cy="4" r="4" fill="#DFDFDF"/>
+        </g>
+        <text fill="#363636" font-family="TTNorms-Bold, TT Norms" font-size="34" font-weight="bold">
+            <tspan x="642.195" y="95">Key performance metrics</tspan>
+        </text>
+        <path stroke="#D7D7D7" stroke-linecap="square" d="M363 0.5L1318 0.5"/>
+    </g>
+</svg>
