@@ -78,58 +78,72 @@
         <div class="why_call_rate_matters">
             <div class="H2">Why call rate matters</div>
             <div class="two_texts">
-                <div class="two_texts_text two_texts_1">
+                <div class="two_texts_text">
                     <p class="H3">Average coverage isn’t sufficient</p>
                     <p>Many labs often describe an assay’s coverage primarily in
-                    terms of the mean coverage across the entire assay, but that only tells part of the story. An assay’s coverage can vary greatly within a genome, exome, or panel. For example, regions may have reduced
+                    terms of the mean coverage across the entire assay, but that only tells part of the story. 
+                    </p>
+                    <p>
+                        An assay’s coverage can vary greatly within a genome, exome, or panel. For example, regions may have reduced
                     coverage due to high or low GC content or because other similar sequences reduce the mapping quality of the reads.
-                    As a result, a test with an average of 100x coverage may have large regions with no coverage at all even though the
-                    assay’s overall average is high.</p>
+                    </p>
+                    <p>
+                       As a result, a test with an average of 100x coverage may have large regions with no coverage at all even though the
+                    assay’s overall average is high. 
+                    </p>
                 </div>
-                <div class="two_texts_text two_texts_2">
+                <div class="two_texts_text">
                     <p class="H3">Call rate helps to identify gaps in coverage</p>
                     <p>What is important to understand about the performance of
                     an assay is the percentage of the region that receives
                     trustable results (known as the call rate). Looking at base-
                     by-base call rates can reveal coverage gaps, even in assays
                     with high average coverage.
-                    We optimize the Exome+® assay for uniform read
+                    </p>
+                    <p>
+                        We optimize the Exome+® assay for uniform read
                     distribution across regions that are important for specific
                     types of genetic testing. For these genes, we provide high-
                     confidence calls at a rate of 299.5%, with base-by-base
-                    coverage at >20x coverage.</p>
+                    coverage at >20x coverage.
+                    </p>
                 </div>
             </div>
         </div>
         </div>
     </section>
 
-    <section class="bringing_the_benefits wrapper">
-        <div class="heading_title">
-            <p class="H2">Bringing the benefits of multiple</p>
-            <p class="H2">assays into one</p>
-        </div>
-        
-        <div class="small_text">
-            <p class="small">Helix’s Exome+® assay has been carefully optimized to provide the benefits of lcWGS, whole exome sequencing, microarrays, and targeted panels — all in one assay.</p>
-        </div>
-
-        <div class="tabs">
-            <div class="tab">Targeted Panels</div>
-            <div class="tab">Whole Exome Sequencing</div>
-            <div class="tab">lcWGS and Microarrays</div>
-        </div>
-
-        <div class="white_panel">
-            <div class="panel_text">
-                <p class="H2">Targeted Panels</p>
-                <p class="description">
-                    Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus. With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
-                </p>
+    <section class="bringing_the_benefits">
+        <div class="wrapper bringing_the_benefits_inner">
+            <div class="heading_title">
+                <p class="H2">Bringing the benefits of multiple</p>
+                <p class="H2">assays into one</p>
+            </div>
+            
+            <div class="small_text">
+                <p class="small">Helix’s Exome+® assay has been carefully optimized to provide the benefits of lcWGS, whole exome sequencing, microarrays, and targeted panels — all in one assay.</p>
             </div>
 
-            <div class="diagram">
-                <img src="pics/Oval1.png" id="diagram">
+            <div class="tabs">
+                <div class="tab">Targeted Panels</div>
+                <div class="tab">Whole Exome Sequencing</div>
+                <div class="tab">lcWGS and Microarrays</div>
+            </div>
+
+            <div class="white_panel">
+                <div class="panel_text">
+                    <p class="H2">Targeted Panels</p>
+                    <p class="description">
+                        Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                    </p>
+                    <p class="description">
+                        With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                    </p>
+                </div>
+
+                <div class="diagram">
+                    <img src="pics/Oval1.png" id="diagram">
+                </div>
             </div>
         </div>
     </section>
@@ -145,7 +159,7 @@
             </p>
         </div>
 
-        <div class="white_panel wrapper">
+        <div class="wrapper flexible_test_design">
             <div class="panel_text">
                 <p class="H2">Flexible test design</p>
                 <p class="description">
@@ -273,12 +287,13 @@
 
                 <label for="project">Do you have a project in mind?</label>
                 <textarea name="project"></textarea>
+                <div class="button_block">
+                    <small id="required_fields">*Required fields</small>
+                    <button type="submit">Submit</button>
+                </div>
             </form>
 
-            <p id="required_fields">*Required fields</p>
-            <div class="button_block">
-                <button type="submit">Submit</button>
-            </div>
+
         </div>
     </section>
 
