@@ -6,8 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Testing - Front without backend</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.hlxcdn.com/fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="swiper.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <div class="blueline">
@@ -145,6 +149,77 @@
                     <img src="pics/Oval1.png" id="diagram">
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="slider_box">
+        <div class="heading_title">
+            <p class="H2">Bringing the benefits of multiple</p>
+            <p class="H2">assays into one</p>
+        </div>
+        
+        <div class="small_text">
+            <p class="small">Helix’s Exome+® assay has been carefully optimized to provide the benefits of lcWGS, whole exome sequencing, microarrays, and targeted panels — all in one assay.</p>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="mobile_tab">
+                    <div class="panel_text">
+                        <p class="H2">Targeted Panels</p>
+                        
+                        <div class="diagram mobile_diagram">
+                            <img src="pics/Oval1.png" id="diagram">
+                        </div>
+
+                        <p class="description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        <p class="description">
+                            With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mobile_tab">
+                    <div class="panel_text">
+                        <p class="H2">Whole Exome Sequencing</p>
+                        
+                        <div class="diagram mobile_diagram">
+                            <img src="pics/Oval2.png" id="diagram">
+                        </div>
+
+                        <p class="description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        <p class="description">
+                            With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="mobile_tab">
+                    <div class="panel_text">
+                        <p class="H2">lcWGS and Microarrays</p>
+                        
+                        <div class="diagram mobile_diagram">
+                            <img src="pics/Oval3.png" id="diagram">
+                        </div>
+
+                        <p class="description">
+                            Panels are often used in clinical settings because they’re low cost and provide high quality coverage of specific, pre-defined genomic regions of interest. While useful in certain settings, such assays are limited by their narrow focus.
+                        </p>
+                        <p class="description">
+                            With ≥ 99.5% call rate across ~600 genes relevant to many disease states, the Exome+ assay enables you to run multiple panel-grade analyses with a single sample.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
     </section>
 
@@ -379,6 +454,7 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
