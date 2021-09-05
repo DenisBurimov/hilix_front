@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("button").click(function() {
+    $(".mobile_menu_button").click(function() {
         alert("Click happend!");
     });
 });
