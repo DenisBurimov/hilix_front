@@ -64,6 +64,7 @@
     color: #777;
     display: inline-flex;
     color: #454545;
+    font-family: 'Camphor';
     font-size: 14px;
     font-weight: 500;
 }
@@ -79,6 +80,7 @@
 }
 
 #just_cart {display: none;}
+.cross {display: none;}
 
 .exome_assay {
     height: 475px;
@@ -223,6 +225,10 @@
     padding: 25px;
     display: flex;
     background: white;
+}
+
+.a_future_proofed_assay {
+    margin-top: 25px;
 }
 
 .flexible_test_design {
@@ -557,6 +563,36 @@
     font-weight: bold;
 }
 
+.mobile_pop_up {display: none;}
+
+.mobile_pop_up_menu {display: flex; flex-direction: column;}
+
+.mobile_menu_block {
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    border: solid #ccc;
+    border-width: 1px 0 1px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: skyblue;
+}
+
+.about p {
+    margin: 0 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.close {cursor: pointer;}
+
 @media screen and (min-width: 1680px) {
     .exome_assay {
         background: url('pics/research-hero-desktop@2x.png');
@@ -644,6 +680,7 @@
     }
 
     .avoid_compromise {
+        margin-top: 25px;
         flex-direction: column;
     }
 
@@ -654,6 +691,10 @@
 
     #diagram {
         max-width: 300px;
+    }
+
+    .focused_block {
+        max-width: 200px;
     }
 
     #ask_specific_questions_image {

@@ -11,19 +11,11 @@ var swiper = new Swiper(".mySwiper", {
       });
 
 $(document).ready(function() {
-    $(".mobile_menu_button").click(function() {
+    $("#submit").click(function() {
         alert("You have successfuly submited!");
     });
 
-    // $(".tab").click(function() {
-    //   $(".tab").css({'color': '#ababab'});
-    //   $(this).css({'color': '#4b94c6'});
-
-    //   let heading = $(this).text();
-    //   $("#tab_heading").html(heading);
-    // });
-
-    // It's not elegant and not DRY, I know, but I was short of time to think hiw to parse id properly, sorry)
+    // It's not elegant and not DRY, I know, but I was short of time to think how to parse id properly, sorry)
     $("#tab-1").click(function() {
       $(".tab").css({'color': '#ababab'});
       $(this).css({'color': '#4b94c6'});
@@ -50,5 +42,27 @@ $(document).ready(function() {
       let heading = $(this).text();
       $("#tab_heading").html(heading);
       $("#diagram").attr("src", "pics/Oval3.png");
+    });
+
+    $(".mobile_menu_button").click(function() {
+        $(".all").css("display", "none");
+        $(".mobile_pop_up").css("display", "block");
+        $(".mobile_menu_button").css("display", "none");
+        $(".cross").css("display", "block");
+    });
+
+    $(".cross").click(function() {
+        $(".all").css("display", "block");
+        $(".mobile_pop_up").css("display", "none");
+        $(".mobile_menu_button").css("display", "block");
+        $(".cross").css("display", "none");
+    });
+
+    $(".mobile_menu_block").click(function() {
+        alert("mobile_menu_block");
+    });
+
+    $(".close").click(function() {
+      $(".about").css("display", "none");
     });
 });
